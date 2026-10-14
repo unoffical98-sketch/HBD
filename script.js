@@ -490,7 +490,7 @@ function buildGallery() {
         aria-label="Open photo: ${esc(photo.caption)}"
       >
         <img
-          src="assets/images/${esc(photo.file)}"
+          src="assets/${esc(photo.file)}"
           alt="${esc(photo.caption)}"
           onerror="this.parentElement.classList.add('missing')"
         >
@@ -518,7 +518,7 @@ function openLightbox(index) {
 
   $("#lbContent").innerHTML = missing
     ? `<div class="lb-miss">💗 Add ${esc(photo.file)} to assets/images/</div>`
-    : `<img src="assets/images/${esc(photo.file)}" alt="${esc(photo.caption)}">`;
+    : `<img src="assets/${esc(photo.file)}" alt="${esc(photo.caption)}">`;
 
   $("#lbCap").textContent = photo.caption;
 

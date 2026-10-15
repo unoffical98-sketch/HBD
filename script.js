@@ -82,10 +82,10 @@ const CONFIG = {
 
   // Photos must be inside assets/images/
   photos: [
-    { file: "img1.jpeg", caption: "WILL" },
-    { file: "img2.jpeg", caption: "YOU" },
-    { file: "img3.jpeg", caption: "MARRY" },
-    { file: "img4.jpeg", caption: "ME" }
+    { file: "img1.jpeg", caption: "I" },
+    { file: "img2.jpeg", caption: "LOVE" },
+    { file: "img3.jpeg", caption: "YOU" },
+    { file: "img4.jpeg", caption: "🥰" }
   ]
 };
 
